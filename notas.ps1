@@ -29,3 +29,7 @@ Compare-Object -ReferenceObject $procs -DifferenceObject $procs2 -Property name
 #Get-Service | Where-Object status -eq "stopped"
 
 git clone https://github.com/git/git
+
+git config --list
+
+$psversiontable
