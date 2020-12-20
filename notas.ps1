@@ -30,6 +30,7 @@ Compare-Object -ReferenceObject $procs -DifferenceObject $procs2 -Property name
 
 git clone https://github.com/git/git
 
-git config --list
+git config --global --list
 
 $psversiontable
+
